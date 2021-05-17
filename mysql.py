@@ -2,9 +2,9 @@ import pymysql
 
 
 # 打开数据库连接
-db = pymysql.Connect(host='192.168.0.104',
+db = pymysql.Connect(host='',
                                user='root',
-                               passwd='123456',
+                               passwd='',
                                port=3306,
                                db='mysql',
                                charset='utf8'
